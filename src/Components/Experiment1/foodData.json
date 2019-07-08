@@ -1,0 +1,4 @@
+[
+  { "name": "apples", "color": "red", "deliciousness": 7 },
+  { "name": "cookies", "color": "various colors", "deliciousness": 10 }
+]

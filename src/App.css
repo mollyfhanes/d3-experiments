@@ -1,0 +1,81 @@
+/* Remember to use SVG attributes with SVG elements, not the usual CSS! */
+
+div.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px;
+  background-color: teal;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.orange {
+  fill: orange;
+  transition: fill 1s;
+}
+
+.scatter-plots {
+  fill: teal;
+}
+
+#app {
+  margin: 40px;
+}
+
+#bar-chart-button,
+#scatter-plot-button,
+#exp12-add-button,
+#exp12-remove-button,
+#exp13-new-button,
+#exp13-sort-button {
+  margin: 15px;
+  padding: 5px;
+  width: 100px;
+}
+
+#bar-x-axis > path,
+#bar-x-axis line,
+#bar-y-axis > path,
+#bar-y-axis line {
+  fill: none;
+  stroke: none;
+}
+
+#bar-x-axis text {
+  fill: #747c89;
+  font-size: 13px;
+}
+
+#bar-y-axis > .tick {
+  display: none;
+}
+
+#exp13-tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 0px 10px;
+  border-radius: 10px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0);
+}
+
+#exp13-value {
+  font-size: 10px;
+}
+
+#scatter-x-axis path,
+#scatter-x-axis line,
+#scatter-y-axis path,
+#scatter-y-axis line {
+  stroke: teal;
+}
+
+#scatter-x-axis text,
+#scatter-y-axis text,
+#scatter-plot-g text {
+  font-family: Optima, Futura, sans-sans-serif;
+  fill: gray;
+}
